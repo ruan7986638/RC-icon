@@ -9712,10 +9712,10 @@
 					<style>
 						<width value="100%"/>
 						<height value="100%"/>
-						<marginLeft value="122px"/>
+						<marginLeft value="0px"/>
 						<hitTest value="false"/>
 					</style>
-					<bind name="scaleX" value="-1"/>
+					<bind name="scaleX" value="1"/>
 					<bind name="style" value="'backgroundImage'; !isAlive ? ('url:' + pathDeadShipIcon) : ('url:' + pathShipTinyIcon)"/>
 				</block>
 				<bind name="style" value="'alpha'; (isReady || _isBattleStats) ? 1 : 0.7"/>

@@ -12891,7 +12891,7 @@
 												:	(shipInfo.subtype == ShipTypes.Destroyer)	? '26px' :
 													(shipInfo.subtype == ShipTypes.Cruiser)		? '14px'
 																									: '0px'"/>
-				<bind name="style" value="'right'; isEnemy ? '10px' : '0'"/>
+				<bind name="style" value="'right'; isEnemy ? '10' : '0'"/>
 				<bind name="scaleX" value="isEnemy ? '1' : '1'"/>
 				<bind name="style" value="'backgroundImage'; 'url:' + (isKilled ? shipInfo.pathTinyDeadIcon : shipInfo.pathTinyIcon)"/>
 			</block>
